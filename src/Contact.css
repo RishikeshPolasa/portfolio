@@ -1,0 +1,100 @@
+.contact {
+  background-color: black;
+  height: 100%;
+}
+.contact__links {
+  text-decoration: none;
+  color: white;
+  height: 230px;
+}
+.contact__link {
+  position: relative;
+  /* border: 1px solid red; */
+  width: fit-content;
+  left: 560px;
+  top: 45px;
+  text-decoration: none;
+  color: white;
+  animation-duration: 1s;
+  animation-name: slideup;
+  transition: transform 0.5s;
+}
+.contact__link > h1,
+.contact__link > span {
+  font-size: 25px;
+  font-weight: 800;
+  font-family: "Semibold";
+  color: white;
+}
+.contact__link .contact__hide {
+  display: none;
+}
+.contact__link:hover .contact__text {
+  display: none;
+}
+.contact__link:hover .contact__hide {
+  display: inline;
+}
+.contact__link:hover {
+  transform: translate(-50px, 0px);
+}
+@keyframes slideup {
+  from {
+    opacity: 0;
+    transform: translateY(30vh);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.contact__large {
+  padding-bottom: 350px;
+  /* border: 1px solid blue; */
+}
+.contact__largetext {
+  width: fit-content;
+  /* border: 1px solid blue; */
+  margin-left: 200px;
+  width: 800px;
+  font-size: 45px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 250%;
+  animation-duration: 1s;
+  animation-name: slideup;
+}
+.contact__largetext > h1 {
+  color: white;
+  font-weight: bold;
+}
+.contact__social__links {
+  width: 650px;
+  margin-left: 350px;
+  /* border: 1px solid blue; */
+  background-color: black;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+}
+/* .contact__social__link {
+  margin-bottom: 15px;
+  transition: transform 0.5s;
+  cursor: pointer;
+} */
+.contact__social__links a {
+  margin-bottom: 10px;
+
+  font-size: 20px;
+  font-weight: 500;
+  color: red;
+  padding-bottom: 20px;
+  /* width: 650px; */
+  /* border: 1px solid red; */
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.contact__social__links a:hover {
+  transform: translate(30px, 0px);
+}

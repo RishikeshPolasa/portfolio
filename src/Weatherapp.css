@@ -1,0 +1,11 @@
+.weatherapp__image {
+  float: right;
+  background: url(./images/weather.png) no-repeat center;
+  background-size: 60% auto;
+  /* border: 1px solid black; */
+  width: 1800px;
+  height: 600px;
+  margin-right: -360px;
+  margin-top: -40px;
+  overflow-x: hidden;
+}

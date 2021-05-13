@@ -1,0 +1,40 @@
+.work {
+  background-color: black;
+}
+/* projectlinks */
+.project__link {
+  text-decoration: none;
+  position: relative;
+  left: 15%;
+  transition: transform 0.5s;
+  margin-bottom: 60px;
+  width: fit-content;
+}
+.project__link h1 {
+  color: white;
+  font-size: 80px;
+  font-family: "Semibold";
+  font-weight: 800;
+  /* border: 1px solid blue; */
+  margin-bottom: -10px;
+}
+.project__link span {
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+  /* border: 1px solid red; */
+  /* position: absolute; */
+}
+.project__link:hover {
+  transform: translate(40px, 0px);
+}
+.scroll-to-top {
+  padding-top: 100px;
+  position: relative;
+  right: -90%;
+  /* bottom: -20%; */
+  /* height: 40px; */
+  /* border: 1px solid red; */
+  width: fit-content;
+  padding-bottom: 20px;
+}

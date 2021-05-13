@@ -1,0 +1,124 @@
+.about {
+  background-color: black;
+  /* height: 100vh; */
+}
+.about__links {
+  /* position: sticky; */
+  text-decoration: none;
+  color: white;
+  height: 230px;
+  /* border: 1px solid red; */
+}
+.about__link {
+  position: absolute;
+  /* border: 1px solid red; */
+  width: fit-content;
+  right: 80px;
+  top: 40px;
+  text-decoration: none;
+  color: white;
+  animation-duration: 1s;
+  animation-name: slideup;
+  transition: transform 0.5s;
+}
+.about__link > h1,
+.about__link > span {
+  font-size: 25px;
+  font-weight: 800;
+  font-family: "Semibold";
+  color: white;
+}
+.about__link .about__hide {
+  display: none;
+}
+.about__link:hover .about__text {
+  display: none;
+}
+.about__link:hover .about__hide {
+  display: inline;
+}
+.about__link:hover {
+  transform: translate(-10px, 0px);
+}
+/* largetext */
+.largetext {
+  height: 300px;
+  margin-bottom: 100px;
+  /* border: 1px solid red; */
+}
+.about__largetext {
+  width: fit-content;
+  /* border: 1px solid blue; */
+  margin-left: 200px;
+  width: 800px;
+  font-size: 50px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 900;
+  line-height: 250%;
+  animation-duration: 1s;
+  animation-name: slideup;
+}
+.about__largetext > h1 {
+  color: white;
+  font-weight: 700;
+}
+@keyframes slideup {
+  from {
+    opacity: 0;
+    transform: translateY(30vh);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+/* image */
+.image {
+  /* border: 1px solid blue; */
+  height: 602px;
+  margin-bottom: 220px;
+}
+.background__image {
+  float: right;
+  background: url(./images/main.jpg) no-repeat center;
+  background-size: 80% auto;
+  /* border: 1px solid red; */
+  width: 600px;
+  height: 600px;
+}
+/* description */
+.description {
+  margin: auto 350px;
+  align-items: center;
+  /* border: 1px solid red; */
+  width: fit-content;
+  text-align: left;
+}
+.title {
+  color: white;
+  font-size: 40px;
+  font-family: sans-serif;
+  margin-bottom: 35px;
+}
+.bold {
+  color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+  margin-bottom: 35px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.description > p {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+.resume {
+  color: white;
+}
+.scroll-to-top img {
+  width: 45px;
+  height: 45px;
+}

@@ -1,0 +1,177 @@
+.home {
+  /* visibility: hidden; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background: url(./images/rishi.jpg) no-repeat right center fixed;
+  background-position: right 150px bottom 20px;
+  background-color: #000000;
+}
+
+.home__links {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 500px;
+  position: relative;
+  right: 240px;
+  top: 120px;
+  /* border: 1px solid blue; */
+  overflow: hidden;
+}
+.link {
+  width: 200px;
+  height: 120px;
+  /* border: 1px solid red; */
+  transition: transform 0.4s;
+  text-decoration: none;
+  width: auto;
+  /* border: 1px solid purple; */
+}
+.one {
+  animation-duration: 1s;
+  animation-name: movingup;
+}
+.two {
+  animation-duration: 1s;
+  /* visibility: hidden; */
+  animation-delay: 0.2s;
+  animation-name: movingup;
+}
+.three {
+  animation-duration: 1s;
+  animation-delay: 0.3s;
+  animation-name: movingup;
+}
+@keyframes movingup {
+  from {
+    opacity: 0;
+
+    transform: translateY(30vh);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.link h1,
+.link span {
+  font-size: 90px;
+  color: red;
+  font-weight: 800;
+  font-family: "Catamaran";
+  margin-bottom: -30px;
+}
+.white h1,
+.white span {
+  color: white;
+}
+.link .hide {
+  display: none;
+}
+.link:hover .text {
+  display: none;
+}
+.link:hover .hide {
+  display: inline;
+}
+.link:hover {
+  transform: translate(40px, 0px);
+}
+.link:hover .white {
+  border-left: 2px solid white;
+}
+/*
+.link {
+  text-decoration: none;
+}
+.link .hide {
+  display: none;
+}
+.link > h1,
+.link > span {
+  font-size: 90px;
+  color: red;
+  font-weight: 800;
+  font-family: "Catamaran";
+  margin-bottom: -30px;
+}
+.link {
+  text-decoration: none;
+}
+.link > h1,
+.link > span {
+  font-size: 105px;
+  letter-spacing: -2px;
+  font-weight: 800;
+  color: red;
+  font-family: Catamaran;
+}
+.link {
+  transition: transform 0.5s;
+   border: 1px solid red; 
+}
+.white h1 {
+  color: white;
+}
+.white span {
+  color: white;
+}
+.link .hide {
+  display: none;
+}
+.link:hover .text {
+  display: none;
+}
+.link:hover {
+  transform: translate(40px, 0px);
+}
+.link:hover .hide {
+  display: inline;
+}
+*/
+/*
+.home__links {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 50%;
+  top: 20%;
+  width: 450px;
+}
+
+.link {
+  text-decoration: none;
+}
+.link > h1,
+.link > span {
+  font-size: 105px;
+  letter-spacing: -2px;
+  font-weight: 800;
+  color: red;
+  font-family: Catamaran;
+}
+.link {
+  transition: transform 0.5s;
+}
+.white h1 {
+  color: white;
+}
+.white span {
+  color: white;
+}
+.link .hide {
+  display: none;
+}
+.link:hover .text {
+  display: none;
+}
+.link:hover {
+  transform: translate(50px, 0px);
+}
+.link:hover .hide {
+  display: inline;
+}
+*/
