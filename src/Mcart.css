@@ -1,14 +1,12 @@
-.facebookapp__links {
+.mcart__links {
   text-decoration: none;
   color: black;
   height: 230px;
 }
-.facebookapp {
-  width: 100%;
+.mcart {
   background-color: white;
-  /* border: 2px solid black; */
 }
-.facebookapp__link {
+.mcart__link {
   position: absolute;
   /* border: 1px solid red; */
   width: fit-content;
@@ -20,30 +18,30 @@
   animation-name: slideup;
   transition: transform 0.5s;
 }
-.facebookapp__link > h1,
-.facebookapp__link > span {
+.mcart__link > h1,
+.mcart__link > span {
   font-size: 25px;
   font-weight: 800;
   font-family: "Semibold";
   color: black;
 }
-.facebookapp__link .facebookapp__hide {
+.mcart__link .mcart__hide {
   display: none;
 }
-.facebookapp__link:hover .facebookapp__text {
+.mcart__link:hover .mcart__text {
   display: none;
 }
-.facebookapp__link:hover .facebookapp__hide {
+.mcart__link:hover .mcart__hide {
   display: inline;
 }
-.facebookapp__link:hover {
+.mcart__link:hover {
   transform: translate(-14px, 0px);
 }
 .largetext {
   height: 300px;
   margin-bottom: 60px;
 }
-.facebookapp__largetext h1 {
+.mcart__largetext h1 {
   width: fit-content;
   /* border: 1px solid blue; */
   margin-left: 200px;
@@ -57,7 +55,7 @@
   animation-duration: 0.5s;
   animation-name: slideup;
 }
-.facebookapp__largetext h4 {
+.mcart__largetext h4 {
   width: fit-content;
   position: relative;
   /* border: 1px solid blue; */
@@ -87,9 +85,9 @@
   margin-bottom: 60px;
   overflow-x: hidden;
 }
-.facebookapp__image {
+.mcart__image {
   float: right;
-  background: url(./images/feedsection.jpg.png) no-repeat center;
+  background: url(./images/mcart.png) no-repeat center;
   background-size: 60% auto;
   /* border: 1px solid black; */
   width: 1800px;
@@ -105,14 +103,14 @@
   width: fit-content;
   text-align: left;
 }
-.facebookapp__title {
+.mcart__title {
   color: black;
   font-size: 40px;
   font-family: sans-serif;
   margin-bottom: 20px;
   font-weight: 600;
 }
-.facebookapp__bold {
+.mcart__bold {
   font-size: 25px;
   font-weight: 400;
 }

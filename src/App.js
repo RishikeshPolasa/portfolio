@@ -9,6 +9,7 @@ import Facebookapp from "./Facebookapp";
 import Weatherapp from "./Weatherapp";
 import Whatsapp from "./Whatsapp";
 import Emoticons from "./Emoticons";
+import Mcart from "./Mcart";
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
               </Route>
               <Route path="/emoticons">
                 <Emoticons />
+              </Route>
+              <Route path="/mcart">
+                <Mcart />
               </Route>
             </Switch>
           </div>

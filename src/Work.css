@@ -8,7 +8,8 @@
   left: 15%;
   transition: transform 0.5s;
   margin-bottom: 60px;
-  width: fit-content;
+  width: 70%;
+  /* border: 1px solid red; */
 }
 .project__link h1 {
   color: white;

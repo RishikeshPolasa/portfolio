@@ -54,15 +54,12 @@ function About() {
           MCET,Hyderabad.
         </h1>
         <p>
-          You can also call me a programmer, front-developer, video editor. I
-          have 2 years experience programming and 1 year experience in front-end
-          developer, cricket lover, music enthusiast, photographer and more.
+          You can also call me a programmer, Front-developer, video
+          editor.Skilled in Data Structures, CPP,Front-end development.
         </p>
         <p>
-          I don't like to define myselft by the work i've done. I define myself
-          by the work I want to do. Skills can be taught, personality is
-          inherent. I prefer to keep learning, continue challenging myself, and
-          do interesting things that matter.
+          I prefer to keep learning, continue challenging myself, and do
+          interesting things that matter.
         </p>
         <p>
           My abundant energy fuels me in the pursuit of many interests, hobbies,
@@ -72,16 +69,16 @@ function About() {
         </p>
         <p>
           I like to develop expertise in a number of areas over the course of my
-          life and carrer. I currently open for new opportunites.
+          life and career. I currently open for new opportunites.
         </p>
         <p>
-          You can read more about my biography, experience, skills, education
-          and much more in the PDF attached bellow:
+          You can read more about skills, education and much more in the PDF
+          attached bellow:
         </p>
       </div>
       <div className="contact__social__links">
         <a href={Resume} target="_blank">
-          My resume (pdf 23kb)
+          Download My resume
         </a>
       </div>
       <div className="scroll-to-top">
