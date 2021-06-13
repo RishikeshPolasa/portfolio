@@ -7,13 +7,10 @@ function Home() {
   return (
     <div className="home">
       <div className="home__links">
-        <div className="link white one">
+        <Link to="/about" className="link white one">
           <h1 className="text ">Hello.</h1>
-
-          <Link to="/about">
-            <span className="hide ">About</span>
-          </Link>
-        </div>
+          <span className="hide ">About</span>
+        </Link>
 
         <Link to="/work" className="link two">
           <h1 className="text">I am</h1>

@@ -25,7 +25,7 @@ function Contact() {
           individuals to work with them. I want to bring my collective design to
           the table to solve the real business-problems.
         </p>
-        <p>I'm a fast learner and open-minded person.</p>
+
         <p>Feel free to reach out through any platforms bellow:</p>
       </div>
       <div className="contact__social__links">
@@ -36,7 +36,7 @@ function Contact() {
         {/* </div> */}
         {/* <div className="contact__social__link"> */}
         <a href="https://www.linkedin.com/in/rishikeshpolasa/" target="_blank">
-          linkedin
+          Linkedin
         </a>
         {/* </div> */}
       </div>

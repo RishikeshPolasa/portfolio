@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Document, Page } from "react-pdf";
-import Resume from "./Assests/rishi resume.pdf";
+import Resume from "./Assests/rishi_resume (2).pdf";
 import "antd/dist/antd.css";
 import "./About.css";
 function About() {
@@ -68,8 +68,8 @@ function About() {
           relative ease.
         </p>
         <p>
-          I like to develop expertise in a number of areas over the course of my
-          life and career. I currently open for new opportunites.
+          I would love to develop websites that help people to make life easier.
+          I currently open for new opportunites.
         </p>
         <p>
           You can read more about skills, education and much more in the PDF
